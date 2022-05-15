@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity6">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Manipulating Image!"/>
+
+            <Image Source="minato.jpg"
+                   Aspect="AspectFit"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   HeightRequest="{OnPlatform iOS=300, Android=250}"/>
+
+
+            <StackLayout>
+                <Button Text="Connect" x:Name="BtnConnect"/>
+            </StackLayout>
+
+            <ActivityIndicator IsRunning="{Binding IsBusy}" Color="Green" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity1">
+    <ContentPage.Content>
+        <StackLayout Margin="30,25,30,25">
+            <Label Text="Light Blue"
+                   HorizontalOptions="Start"
+                   BackgroundColor="LightBlue"/>
+
+            <Label Text="Yellow"
+                   HorizontalOptions="Center"
+                   BackgroundColor="Yellow"/>
+
+            <Label Text="Green"
+                   HorizontalOptions="End"
+                   BackgroundColor="Green"/>
+
+            <Label Text="Red"
+                   HorizontalOptions="Fill"
+                   BackgroundColor="Red"/>
+
+            <StackLayout Margin="30,25,30,25">
+                <Label Text="Light Blue"
+                   HorizontalOptions="Start"
+                   BackgroundColor="LightBlue"/>
+
+                <Label Text="Yellow"
+                   HorizontalOptions="Center"
+                   BackgroundColor="Yellow"/>
+
+                <Label Text="Green"
+                   HorizontalOptions="End"
+                   BackgroundColor="Green"/>
+
+                <Label Text="Red"
+                   HorizontalOptions="Fill"
+                   BackgroundColor="Red"/>
+
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

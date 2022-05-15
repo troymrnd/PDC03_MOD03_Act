@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity2">
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+
+            <Frame BorderColor="Black">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Horizontal Oriantation"/>
+                    <BoxView Color="Red"/>
+
+                </StackLayout>
+            </Frame>
+
+            <StackLayout Orientation="Vertical">
+
+                <BoxView Color="Red"/>
+                <BoxView Color="Green"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+                <BoxView Color="Red" VerticalOptions="Center"/>
+                <BoxView Color="Green" VerticalOptions="Center"/>
+
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
